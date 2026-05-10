@@ -22,9 +22,6 @@ Open `index.html` in your browser.
 
 ### View Portfolio
 [Open Directly](https://ronak-jain-afk.github.io/RonaksPortfolio/)  
-OR  
-URL:    
-https://ronak-jain-afk.github.io/RonaksPortfolio/
 
 
 ## Files
