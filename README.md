@@ -20,7 +20,7 @@ A warm, claymorphic single-page portfolio built with pure **HTML + CSS + JavaScr
 
 Open `index.html` in your browser.
 
-### View Portfolio
+## View Portfolio
 
 [Open Directly](https://ronak-jain-afk.github.io/RonaksPortfolio/)  
 
