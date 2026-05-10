@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronak Jain | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-blob" aria-hidden="true"></div>
+
+  <nav class="site-nav" id="siteNav" aria-label="Primary">
+    <div class="nav-shell">
+      <a class="brand" href="#home">Ronak Jain</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="home">
+    <section class="section hero">
+      <div class="hero-copy">
+        <p class="label load-stagger" style="--delay: 0ms;">&mdash; Cybersecurity &amp; AI/ML Developer</p>
+        <h1 class="hero-name load-stagger" style="--delay: 100ms;">Ronak Jain</h1>
+        <p class="hero-text load-stagger" style="--delay: 200ms;">
+          I build secure developer tooling and practical AI systems that solve real workflow problems.
+          From local autonomous coding assistants to security-first CLIs, I enjoy turning complex ideas
+          into products that are reliable, useful, and human-friendly.
+        </p>
+        <div class="hero-actions load-stagger" style="--delay: 300ms;">
+          <a class="clay-button" href="#projects">View Projects</a>
+          <a class="clay-button secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+
+      <aside class="hero-card clay-card load-stagger" style="--delay: 400ms;">
+        <div class="profile-wrap">
+          <img class="profile-image" src="219406811.jpg" alt="Ronak Jain profile picture">
+        </div>
+        <p class="hero-card-title">Focused on secure systems + applied ML</p>
+        <p class="hero-card-text">Building tools that are fast, safe, and actually pleasant to use.</p>
+      </aside>
+    </section>
+
+    <section class="section" id="about">
+      <article class="about-panel clay-card reveal">
+        <p class="label">About</p>
+        <h2>Engineering calm, secure, practical products.</h2>
+        <p>
+          I like building software that makes serious technical work feel simpler. My projects often sit at the
+          intersection of developer productivity, security, and machine learning, with an emphasis on real-world
+          reliability over flashy demos.
+        </p>
+        <div class="skill-strip" role="list" aria-label="Skill tags">
+          <span class="skill-pill" role="listitem">Python + libraries</span>
+          <span class="skill-pill" role="listitem">C</span>
+          <span class="skill-pill" role="listitem">HTML/CSS/JS</span>
+          <span class="skill-pill" role="listitem">React</span>
+          <span class="skill-pill" role="listitem">Nmap</span>
+          <span class="skill-pill" role="listitem">Git</span>
+          <span class="skill-pill" role="listitem">Docker</span>
+          <span class="skill-pill" role="listitem">Linux</span>
+          <span class="skill-pill" role="listitem">AI tools</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="projects">
+      <header class="section-head reveal">
+        <p class="label">Work</p>
+        <h2>Projects I have built recently.</h2>
+      </header>
+
+      <div class="project-grid">
+        <a class="project-card clay-card span-2 reveal" href="https://github.com/Ronak-jain-afk/Auto-Agent" target="_blank" rel="noopener noreferrer" aria-label="Open Auto-Agent repository">
+          <div class="project-thumb thumb-1" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-dev"></span>AI Developer Tooling</p>
+          <h3>Auto-Agent</h3>
+          <p>A local LLM-powered CLI coding assistant that interprets natural language and executes structured actions safely.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card reveal" href="https://github.com/Ronak-jain-afk/GitSafe" target="_blank" rel="noopener noreferrer" aria-label="Open GitSafe repository">
+          <div class="project-thumb thumb-2" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-security"></span>Security CLI</p>
+          <h3>GitSafe</h3>
+          <p>Scans staged Git changes and blocks secrets or insecure patterns before commit.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card reveal" href="https://github.com/Ronak-jain-afk/SafeBox" target="_blank" rel="noopener noreferrer" aria-label="Open SafeBox repository">
+          <div class="project-thumb thumb-3" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-dev"></span>Sandboxing Tooling</p>
+          <h3>SafeBox</h3>
+          <p>Docker-backed CLI wrapper that sandboxes scripts with runtime detection and safe resource limits.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card reveal" href="https://github.com/Ronak-jain-afk/linksentry" target="_blank" rel="noopener noreferrer" aria-label="Open LinkSentry repository">
+          <div class="project-thumb thumb-4" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-ml"></span>ML Security</p>
+          <h3>LinkSentry</h3>
+          <p>An ML-based phishing detection CLI trained and packaged for practical, distributable use.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card reveal" href="https://github.com/Ronak-jain-afk/Speech-to-text" target="_blank" rel="noopener noreferrer" aria-label="Open Speech-to-Text repository">
+          <div class="project-thumb thumb-5" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-ml"></span>Speech AI</p>
+          <h3>Speech-to-Text</h3>
+          <p>Fine-tuned Wav2Vec2-base model for automatic speech recognition workflows.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card span-2 reveal" href="https://github.com/Ronak-jain-afk/smartboard" target="_blank" rel="noopener noreferrer" aria-label="Open AI Smart Board repository">
+          <div class="project-thumb thumb-6" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-cv"></span>Computer Vision</p>
+          <h3>AI Smart Board</h3>
+          <p>Gesture-controlled drawing experience built with webcam tracking and OpenCV.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card reveal" href="https://github.com/Ronak-jain-afk/cryptlock" target="_blank" rel="noopener noreferrer" aria-label="Open Encryption/Decryption CLI repository">
+          <div class="project-thumb thumb-7" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-security"></span>Security Utility</p>
+          <h3>Encryption / Decryption CLI</h3>
+          <p>Encrypts and decrypts files or directories with a simple command-line interface.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+
+        <a class="project-card clay-card reveal" href="https://github.com/Ronak-jain-afk/emotion-recognition" target="_blank" rel="noopener noreferrer" aria-label="Open Emotion Detection ML repository">
+          <div class="project-thumb thumb-8" aria-hidden="true"></div>
+          <p class="project-type"><span class="dot dot-cv"></span>Computer Vision ML</p>
+          <h3>Emotion Detection ML</h3>
+          <p>A CNN + OpenCV pipeline that identifies facial emotions in real time.</p>
+          <span class="project-cta">View Repo ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <header class="section-head reveal">
+        <p class="label">Stack / Tools</p>
+        <h2>Technologies I reach for most.</h2>
+      </header>
+
+      <div class="tools-grid">
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🐍</span><span>Python</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🌐</span><span>HTML/CSS/JS</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">⚛</span><span>React</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🐳</span><span>Docker</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🐧</span><span>Linux</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🌿</span><span>Git</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🔎</span><span>Nmap</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🧠</span><span>AI tools</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">🔥</span><span>PyTorch</span></article>
+        <article class="tool-card clay-chip reveal"><span aria-hidden="true">👁</span><span>OpenCV</span></article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <article class="contact-card clay-card reveal">
+        <p class="label">Contact</p>
+        <h2>Let&rsquo;s build something meaningful together.</h2>
+        <p class="contact-email">ronakjain4448@gmail.com</p>
+        <p class="contact-handle">github.com/Ronak-jain-afk</p>
+        <div class="contact-actions">
+          <button class="clay-button" id="copyEmailButton" data-email="ronakjain4448@gmail.com" type="button">
+            Copy Email
+          </button>
+          <a class="clay-button secondary" href="https://github.com/Ronak-jain-afk" target="_blank" rel="noopener noreferrer">
+            Open GitHub
+          </a>
+          <a class="clay-button secondary" href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+            Open LinkedIn
+          </a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer reveal">
+    <p>Ronak Jain &middot; <span id="year"></span> &middot; 👋</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
