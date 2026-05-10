@@ -20,9 +20,15 @@ A warm, claymorphic single-page portfolio built with pure **HTML + CSS + JavaScr
 
 Open `index.html` in your browser.
 
+### View Portfolio
+[Open Directly](https://ronak-jain-afk.github.io/RonaksPortfolio/)
+OR
+URL:
+https://ronak-jain-afk.github.io/RonaksPortfolio/
+
+
 ## Files
 
 - `index.html` - page structure and content
 - `styles.css` - design system and layout styling
 - `script.js` - interactions
-- `projects.md` - project source list used for portfolio content
